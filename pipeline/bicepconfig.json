@@ -1,0 +1,10 @@
+{
+	"moduleAliases": {
+		"br": {
+			"cr-modules": {
+				"registry": "cr.azurecr.io",
+				"modulePath": "bicep/modules"
+			}
+		}
+	}
+}
