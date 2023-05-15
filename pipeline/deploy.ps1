@@ -1,6 +1,10 @@
 # az login
 # az account set --subscription f3d0ada3-bf24-4081-adb6-824027ca841c (NOVA-POINTTAKEN)
-# Call with .\deploy.ps1 -projectName faglunchbicep -env dev -location westeurope -customerName pt
+
+# Call with dot sourcing operator (.) to make sure the variables are available in the current scope after execution
+
+# . .\deploy.ps1 -projectName faglunchbicep -env dev -location westeurope -customerName pt
+
 param (
     [string]$projectName,
     [string]$env,
